@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 androidviewclient = "^23.0.0"
 uiautomator2 = "^2.16.25"
+pytz = "^2024.1"
+schedule = "^1.2.1"
 
 
 [build-system]
