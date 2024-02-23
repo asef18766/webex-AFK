@@ -9,4 +9,15 @@ services:
     ports: 
       - "5555:5555"
     privileged: true
+    environment:
+      - redroid.gpu.mode=guest
     tty: true
+  controller:
+    build: . 
+    volumes:
+      - ./uc.apk:/app/uc.apk:ro
+    entrypoint: /bin/bash -c "source /root/.bashrc && poetry run python3 main.py"
+    tty: true
+    depends_on:
+      redroid:
+        condition: service_started

@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 androidviewclient = "^23.0.0"
+uiautomator2 = "^2.16.25"
 
 
 [build-system]
