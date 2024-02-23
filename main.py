@@ -21,6 +21,7 @@ while True:
         print("[adb connection failed retried]")
         time.sleep(0.5)
 
+os.system("poetry run python3 -m uiautomator2 init && adb shell pm grant com.github.uiautomator android.permission.READ_PHONE_STATE")
 d = u2.connect("redroid:5555") # connect to device
 
 
