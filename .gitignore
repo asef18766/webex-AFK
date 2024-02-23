@@ -1,2 +1,4 @@
 .venv
 user_info.json
+scrcpy*
+data
