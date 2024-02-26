@@ -1,5 +1,7 @@
 # webex-afk
 a simple service to save your time from boring meeting
+
+**do not use it since it's still WIP!!!**
 ## how to use
 ### requirements
 * linux
