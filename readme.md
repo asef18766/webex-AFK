@@ -2,6 +2,9 @@
 a simple service to save your time from boring meeting
 
 **do not use it since it's still WIP!!!**
+## bug
+webex app will check for CPU state & use hardware to decode AV steams, which will crash app itself
+
 ## how to use
 ### requirements
 * linux
